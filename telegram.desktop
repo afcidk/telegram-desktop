@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Telegram unofficial
+Exec=/path/to/the/exe
+Terminal=false
+Type=Application
+Icon=/path/to/the/dir/icon.png

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+IS_OPENED=$(ps aux | grep "SCREEN" | grep "telegram")
+
+if [ -z "$IS_OPENED" ]; then
+    screen -d -m npm start --prefix=/path/to/the/dir
+fi
